@@ -5,7 +5,7 @@ import { getStore } from "@netlify/blobs";
 const INITIAL_DATA = {
   "exteriorLogo": {
     "name": "Exterior Logo",
-    "layoutImages": ["images/exterior _logo.jpg"],
+    "layoutImages": ["images/exterior_logo.jpg"],
     "spots": {
       "EX1": { "name": "EX1", "size": "1920x1080px", "price": 30000, "status": "Available", "bookedBy": "" },
       "EX2": { "name": "EX2", "size": "1920x1080px", "price": 30000, "status": "Available", "bookedBy": "" },
@@ -49,24 +49,25 @@ const INITIAL_DATA = {
     "name": "Interior Logo",
     "layoutImages": ["images/A1-6.jpg", "images/A7-10.jpg", "images/A11-12.jpg", "images/A13-19.jpg"],
     "spots": {
-      "A1": { "name": "A1 - Monitor", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A2": { "name": "A2 - Monitor", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A3": { "name": "A3 - Monitor", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A4": { "name": "A4 - Monitor", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A5": { "name": "A5 - Case & Cooling", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A6": { "name": "A6 - Case & Cooling", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A7": { "name": "A7 - Case & Cooling", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A8": { "name": "A8 - Case & Cooling", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A9": { "name": "A9 - CPU", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A10": { "name": "A10 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A11": { "name": "A11 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A12": { "name": "A12 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A13": { "name": "A13 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A14": { "name": "A14 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A15": { "name": "A15 - Gaming Gear", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A16": { "name": "A16 - Gaming Gear", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A17": { "name": "A17 - Gaming Gear", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
-      "A18": { "name": "A18 - Gaming Gear", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" }
+      "A1": { "name": "A1 - CPU", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A2": { "name": "A2 - CPU", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A3": { "name": "A3 - CASE & COOLING", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A4": { "name": "A4 - CASE & COOLING", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A5": { "name": "A5 - CASE & COOLING", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A6": { "name": "A6 - CASE & COOLING", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A7": { "name": "A7 - MONITOR", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A8": { "name": "A8 - MONITOR", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A9": { "name": "A9 - MONITOR", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A10": { "name": "A10 - MONITOR", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A11": { "name": "A11 - GAMING GEAR", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A12": { "name": "A12 - GAMING GEAR", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A13": { "name": "A13 - GAMING GEAR", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A14": { "name": "A14 - GAMING GEAR", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A15": { "name": "A15 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A16": { "name": "A16 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A17": { "name": "A17 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A18": { "name": "A18 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
+      "A19": { "name": "A19 - DIY", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" }
     }
   }
 };
