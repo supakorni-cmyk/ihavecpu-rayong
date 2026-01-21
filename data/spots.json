@@ -43,7 +43,7 @@
   },
   "interiorLogo": {
     "name": "Interior Logo",
-    "layoutImages": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg","images/5.jpg"],
+    "layoutImages": ["images/A1-6.jpg", "images/A7-10.jpg", "images/A11-12.jpg", "images/A13-19.jpg"],
     "spots": {
       "A1": { "name": "A1 - Monitor", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
       "A2": { "name": "A2 - Monitor", "size": "3m x 1.5m", "price": 30000, "status": "Available", "bookedBy": "" },
